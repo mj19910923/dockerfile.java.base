@@ -6,7 +6,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM registry.aliyuncs.com/hds/base.ubuntu:14.04
 
 # Install Java.
 RUN \
