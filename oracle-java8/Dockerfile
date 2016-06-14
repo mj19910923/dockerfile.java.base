@@ -6,7 +6,7 @@
 #
 
 # Pull base image.
-FROM registry.aliyuncs.com/hds/base.ubuntu:14.04
+FROM registry.aliyuncs.com/hds/ubuntu.base:14.04
 
 # Install Java.
 RUN \
